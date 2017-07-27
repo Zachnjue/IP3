@@ -86,9 +86,13 @@
 
 #in
 {
-
+  margin-top: -20px;
 }
 #in1
 {
-  padding-left: 400px;
+
+}
+#in3
+{
+  font-size: 20px;
 }
