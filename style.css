@@ -8,10 +8,10 @@
 }
 #row21
 {
-  height: 700px;
+  height: 550px;
   width: 300px;
   margin-top: 50px;
-  background-color: #2E8B57;
+  background-color: #3CB371;
   margin-left: 0px;
 }
 #row_words
@@ -24,34 +24,46 @@
   margin-left: 10px;
   font-size: 20px;
   color: #FFE4B5;
+  font-size: 18px;
+  margin-top: -20px;
 }
 #row_words2
 {
   margin-left: 10px;
   font-size: 20px;
   color: white;
+  font-size: 14px;
+  margin-top: -20px;
 }
 #row_words3
 {
   margin-left: 10px;
   font-size: 20px;
   color: #FFE4B5;
+  font-size: 18px;
+  margin-top: -20px;
 }
 #row_words4
 {
   margin-left: 10px;
   font-size: 20px;
   color: blue;
+  font-size: 14px;
+  margin-top: -20px;
 }
 #row_words5
 {
   margin-left: 10px;
   font-size: 20px;
   color: #FFE4B5;
+  font-size: 18px;
+  margin-top: -20px;
 }
 #row_words6
 {
   margin-left: 10px;
   font-size: 20px;
-  color: #FFE4B5;
+  color: ghostwhite;
+  font-size: 14px;
+  margin-top: -20px;
 }
