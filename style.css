@@ -23,19 +23,35 @@
 {
   margin-left: 10px;
   font-size: 20px;
+  color: #FFE4B5;
 }
 #row_words2
 {
   margin-left: 10px;
   font-size: 20px;
+  color: white;
 }
 #row_words3
 {
   margin-left: 10px;
   font-size: 20px;
+  color: #FFE4B5;
 }
 #row_words4
 {
   margin-left: 10px;
   font-size: 20px;
+  color: blue;
+}
+#row_words5
+{
+  margin-left: 10px;
+  font-size: 20px;
+  color: #FFE4B5;
+}
+#row_words6
+{
+  margin-left: 10px;
+  font-size: 20px;
+  color: #FFE4B5;
 }
