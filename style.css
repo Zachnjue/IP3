@@ -6,16 +6,9 @@
   text-align: center;
   padding: 70px;
 }
-#row21
-{
-  height: 550px;
-  width: 300px;
-  margin-top: 50px;
-  background-color: #3CB371;
-  margin-left: 0px;
-}
 #row_words
 {
+  padding-top: 30px;
   margin-left: 10px;
   font-size: 20px;
 }
@@ -66,4 +59,40 @@
   color: ghostwhite;
   font-size: 14px;
   margin-top: -20px;
+}
+#col1
+{
+  height: 650px;
+  background-color: #DCDCDC;
+}
+#col2
+{
+  height: 550px;
+  width: 350px;
+  margin-top:40px;
+  background-color: #3CB371;
+  margin-left: -15px;
+}
+#col21
+{
+  height: 550px;
+  width: 700px;
+  margin-top:40px;
+  background-color: #DCDCDC;
+  padding-top: 30px;
+  padding-left: 40px;
+
+}
+
+#in
+{
+
+}
+#in2
+{
+  padding-left: 400px;
+}
+#in3
+{
+  padding-left: 400px;
 }
