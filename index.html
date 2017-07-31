@@ -32,10 +32,14 @@
           </ol>
           <!--Inserted a button-->
           <div class="button">
-            <label><strong>Enter your number here:</strong>
-              <input type="number" id="entNumber"/>
-              <input type="submit" value="Ping Pong!" id="button1" onclick="calc()"></label> <br>
-              <input type="text" id="answer"/>
+            <form class="" action="index.html" method="post">
+              <label><strong>Enter your number here:</strong>   <!--Should be inside a form-->
+                <input type="number" id="entNumber"/>
+                <input type="submit" value="Ping Pong!" id="button1" onclick="calc()"> <br>
+                <input type="text" id="answer"/>
+              </label>
+            </form>
+
             <!--<button class="btn" type="button" name="button!" id="button1">Ping Pong!</button>-->
           </div>
 
