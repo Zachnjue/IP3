@@ -1,7 +1,7 @@
 function calc(){
-  var w = document.getElementById("width").value;
-  var h = document.getElementById("height").value;
+  var number= document.getElementById("entNumber").value;
 
-  var area=w*h;
+
+  var;
   document.getElementById("answer").value=area;
 }
