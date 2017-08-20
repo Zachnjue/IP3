@@ -3,9 +3,17 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="bootstrap/js/bootstrap.min.js">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="main.js">
+    <!--<link rel="stylesheet" href="bootstrap/js/bootstrap.min.js">-->
+    <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+
+    <!--<link rel="stylesheet" href="main.js">-->
+    <!--<script type="text/javascript">
+    function showInput(){
+      document.getElementById("display").innerHTML=
+                    document.getElementById("user_input").value;}
+    </script>-->
     <title>Game</title>
   </head>
   <body>
@@ -33,14 +41,17 @@
           </ol>
           <!--Inserted a button-->
           <div class="button">
-            <form class="" action="index.html" method="post">
-              <label><strong>Enter your number here:</strong>   <!--Should be inside a form-->
-                <input type="number" id="entNumber"/>
-                <input type="submit" value="Ping Pong!" id="button1" onclick="calc()">
-                </label><br>
-                <input type="text" id="answer"/>
+            <label><strong>Enter your number here:</strong>
+              <form>
+                <input type="number" id="user_input"/>
+                <input type="submit" value="Ping Pong!" id="submit1"/>
+              </form>  <!--Should be inside a form-->
 
-            </form>
+            </label><br>
+            <label>Your numbers:</label>
+              <p id="display"></p>
+
+
 
             <!--<button class="btn" type="button" name="button!" id="button1">Ping Pong!</button>-->
           </div>
