@@ -1,5 +1,37 @@
 //Front End Code
-$(document).ready(function(){
+$(document).ready.(function(){
+  $("")
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*$(document).ready(function(){
   $("#submit1").click(function(event) {
     event.preventDefault();
     var userInput=parseInt($("#user_input").val());
@@ -23,5 +55,5 @@ var pingpongLoop=function(userInput) {
     }
   }
  return resultofArray;
-}
+});
 */

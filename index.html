@@ -40,16 +40,28 @@
             <li>Numbers divisible by 3 and 5 becomes "pingpong"</li>
           </ol>
           <!--Inserted a button-->
-          <div class="button">
+          <!--<div class="button">
             <label><strong>Enter your number here:</strong>
-              <form>
-                <input type="number" id="user_input"/>
-                <input type="submit" value="Ping Pong!" id="submit1"/>
-              </form>  <!--Should be inside a form-->
+              <form id="add">
+                <div class="form-group">
+                  <input id="add1" class="form-control" type="text"/>
+                </div>
+              </form> Should be inside a form-->
+
+            <input type="number" class="defaul"id="input">
+            <input type="submit" class="btn btn-default" value="Ping Pong" id="button">
+
+
 
             </label><br>
             <label>Your numbers:</label>
-              <p id="display"></p>
+            <div class="container">
+              <ul class="displayResults" id="gameOutput">
+
+              </ul>
+
+            </div>
+
 
 
 
